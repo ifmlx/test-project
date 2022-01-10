@@ -1,0 +1,12 @@
+{
+  "token": "",
+  "prefix": ",",
+  "youtubeCookie": "",
+  "spotify_api": {
+        "enabled": false, "_COMMENT_": "",
+        "clientSecret": "670b7e8d79c04a6ebdfef5c59b3edad7",
+        "clientId": "33b53383595d4a288dc39f636f17d65f",
+        "callbackURL":"http://open.spotify.com/track/6rqhFgbbKwnb9MLmUQDhG6"
+  },
+  "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
+}
