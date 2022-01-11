@@ -649,7 +649,7 @@ function onCoolDown(message, command) {
   function change_status(client) {
     try {
       client.user.setStatus("dnd");
-      client.user.setActivity(`,help`, {
+      client.user.setActivity(`,help Server ${client.guilds.cache.size} , Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, {
         type: "LISTENING"
       });
     } catch (e) {
